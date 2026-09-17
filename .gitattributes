@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.png binary
+# The generated bundle retains whitespace inside Three.js GLSL template strings.
+index.html whitespace=-blank-at-eol
+index.html linguist-generated=true
